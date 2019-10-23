@@ -1,0 +1,40 @@
+body{
+    background-color: white;
+    font-family: sans-serif, Verdana, Arial;
+}
+header{
+    height: 243px;
+    background-repeat: no-repeat;
+    width: auto;
+    padding-bottom: 50px;
+    color: royalblue;
+}
+h3{ color: royalblue;
+    
+}
+nav{
+    float: right;
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color: aliceblue;
+    margin: 5px;
+}
+@media only screen and (max-width: 768px){
+    body{display: block;
+    width: auto;}
+    h1,h2,h3 {font-size: 100%;}
+    p {font-size: 80%;
+    width: auto;}
+    nav,nav ul,{padding: 0px;
+                float: none;}
+    nav a{
+        display: block;
+        padding: .5em 0;
+        border-bottom: 2px ridge #00005d;
+    }
+    img {display: none;}
+}
